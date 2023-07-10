@@ -1,6 +1,6 @@
-import Detail from "./Detail";
-import Form from "./Form";
-import Home from "./Home";
+import Detail from "./Detail/Detail";
+import Form from "./Form/Form";
+import Home from "./Home/Home";
 import Landing from "./Landing/landing";
 
-export { Detail, Form, Home, Landing };
+export { Home, Form, Detail, Landing };
