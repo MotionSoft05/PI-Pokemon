@@ -1,38 +1,59 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 
-export const MainContainer = styled.div`
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  border-radius: 15px;
-  margin-right: 2rem;
+export const StyledNav = styled.nav`
+  margin-top: 2vh;
+  background-color: transparent;
+`;
+export const StyledDiv = styled.div`
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem /* 16px */;
+  padding-right: 1rem;
 `;
 
-export const StyledTitle = styled.div`
-  h1 {
-    color: #ff0505;
-    font-size: 2.5rem;
-  }
+export const StyledDiv3 = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 4rem;
 `;
+
+export const StyledDiv3Sub1 = styled.div`
+  display: flex;
+  flex-direction: row;
+`;
+
+export const StyledDiv3Sub1sub1 = styled.div``;
+
+export const StyledDiv3Sub1sub2 = styled.div`
+  display: flex;
+  padding-top: 3vh;
+  margin-left: auto;
+`;
+
+export const StyledDiv3Sub2 = styled.div`
+  display: flex;
+`;
+
 export const StyledImg = styled.img`
   width: 100px;
   height: auto;
 `;
 
 export const StyledLink = styled(Link)`
-  display: inline-block;
-  color: white;
+  padding-left: 0.75rem /* 12px */;
+  padding-right: 0.75rem /* 12px */;
+  padding-top: 0.5rem /* 8px */;
+  padding-bottom: 0.5rem /* 8px */;
+
   text-decoration: none;
   font-size: 1.5rem;
   color: #ff0505;
   cursor: pointer;
-  margin: 0 10rem;
 `;
 
 export const StyledSearch = styled.div`
-  display: flex;
-  align-items: center;
   input[type="search"] {
     width: 300px;
     height: 30px;
@@ -50,8 +71,7 @@ export const StyledSearch = styled.div`
     cursor: pointer;
     padding: 10px 15px;
     &:hover {
-      background-color: #000000;
-      color: white;
+      background-color: white;
     }
   }
 `;
