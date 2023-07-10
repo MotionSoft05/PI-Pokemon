@@ -27,7 +27,7 @@ function Nav() {
   //   };
 
   return (
-    <MainContainer>
+    <div>
       {/* 
       {location.pathname !== "/pokemon" && (
         <StyledLink to="/">
@@ -59,7 +59,7 @@ function Nav() {
         />
         <button onClick={handleSearch}>Search</button>
       </StyledSearch> */}
-    </MainContainer>
+    </div>
   );
 }
 
