@@ -28,7 +28,7 @@ export const StyledDiv3Sub1sub1 = styled.div``;
 
 export const StyledDiv3Sub1sub2 = styled.div`
   display: flex;
-  padding-top: 3vh;
+  padding-top: 2vh;
   margin-left: auto;
 `;
 
@@ -37,7 +37,7 @@ export const StyledDiv3Sub2 = styled.div`
 `;
 
 export const StyledImg = styled.img`
-  width: 100px;
+  width: 7vh;
   height: auto;
 `;
 
@@ -51,27 +51,40 @@ export const StyledLink = styled(Link)`
   font-size: 1.5rem;
   color: #ff0505;
   cursor: pointer;
+
+  h2 {
+    font-size: 2vh;
+  }
 `;
 
 export const StyledSearch = styled.div`
   input[type="search"] {
-    width: 300px;
+    /* width: 300px; */
     height: 30px;
     border-radius: 15px;
     margin-right: 10px;
     padding-left: 10px;
+    max-width: 13vh;
   }
   button {
-    background-color: #ff0505;
-    color: black;
-    border: none;
-    border-radius: 15px;
-    font-size: 1rem;
-    font-weight: bold;
-    cursor: pointer;
-    padding: 10px 15px;
-    &:hover {
-      background-color: white;
+    display: none;
+    @media (min-width: 768px) {
+      display: inline;
+
+      background-color: #ff0505;
+      color: black;
+      border: none;
+      border-radius: 15px;
+      font-size: 1rem;
+      font-weight: bold;
+      cursor: pointer;
+      padding: 10px 15px;
+      &:hover {
+        background-color: white;
+      }
     }
+  }
+
+  input {
   }
 `;

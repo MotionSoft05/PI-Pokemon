@@ -55,7 +55,7 @@ function Nav() {
                   onChange={(e) => {
                     setSearch(e.target.value);
                   }}
-                />
+                ></input>
                 <button>Search</button>
               </StyledSearch>
             </StyledDiv3Sub1sub2>
