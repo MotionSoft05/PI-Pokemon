@@ -5,8 +5,6 @@ import {
   orderPokemon,
   getTypes,
   filterByType,
-  clearTypeFilter,
-  getAllPokemons,
 } from "../../Redux/actions";
 import HomeBG from "../../Media/ClientBG.mp4";
 import Filters from "../../Components/Filters/Filters";
