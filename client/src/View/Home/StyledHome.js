@@ -13,7 +13,6 @@ export const StyledDiv = styled.div`
   position: relative;
   overflow: hidden;
   height: 100vh;
-  width: auto;
 
   video {
     position: absolute;
