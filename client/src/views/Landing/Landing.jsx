@@ -10,7 +10,7 @@ import {
 } from "./StyleLanding";
 import React from "react";
 import { useHistory } from "react-router-dom";
-import LandingBG from "../../Media/LandingBG.gif";
+import LandingBG from "../../Media/LandingBG.mp4";
 import pokemonLogo from "../../Media/pokemon-logo-png-1428.png";
 import pokemonSublogo from "../../Media/Pokemon_sub_logo.png";
 import ButtonImg from "../../Media/NewImgB.png";
@@ -38,8 +38,6 @@ function Landing() {
             <img src={ButtonImg} alt="" />
           </StyledButton>
         </ButtonDiv>
-
-        <Footer>By: Kevin Barrios</Footer>
       </div>
     </>
   );
